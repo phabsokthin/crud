@@ -30,7 +30,7 @@
 
     <ProgressBar
 
-        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        style="?android:attr/progressBarStyleSmall"
         android:id="@+id/progress_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,8 +42,8 @@
         android:layout_marginRight="90dp"
         android:indeterminate="true"
         android:indeterminateTint="#FF5722"/>
-
+<!--    style="@style/Widget.AppCompat.ProgressBar.Horizontal"-->
 <!--        the below for style progress-->
-<!--    style="?android:attr/progressBarStyleSmall"-->
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
